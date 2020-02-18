@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination should render 1`] = `
+<ul
+  className="pagination"
+>
+  <li
+    className="page-item disabled"
+  >
+    <span
+      className="page-link"
+      disabled={true}
+      onClick={[Function]}
+    >
+      Prev
+    </span>
+  </li>
+  <li
+    className="page-item"
+  >
+    <a
+      className="page-link"
+      href="#"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+    >
+      Page undefined of NaN
+    </a>
+  </li>
+  <li
+    className="page-item disabled"
+  >
+    <span
+      className="page-link"
+      disabled={true}
+      onClick={[Function]}
+    >
+      Next
+    </span>
+  </li>
+</ul>
+`;

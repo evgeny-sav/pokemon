@@ -1,0 +1,43 @@
+.PokemonCard {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 15px;
+  padding: 20px;
+
+  border: 1px solid #eee;
+  border-radius: 5px;
+
+  box-sizing: border-box;
+  box-shadow: #ddd 2px 2px 8px;
+
+  .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title {
+    font-weight: bold;
+    margin: 10px 0;
+  }
+
+  .description {
+
+  }
+
+  .button {
+    display: flex;
+    flex-flow: row-reverse;
+
+    a {
+      display: block;
+      width: 100%;
+      text-decoration: none;
+
+      button {
+        width: 100%;
+      }
+    }
+  }
+}

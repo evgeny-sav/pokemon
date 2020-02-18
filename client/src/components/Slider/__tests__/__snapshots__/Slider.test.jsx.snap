@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slider should render 1`] = `
+<div
+  className="text-center carousel slide"
+  onKeyDown={[Function]}
+  onMouseOut={[Function]}
+  onMouseOver={[Function]}
+  onTouchEnd={[Function]}
+  onTouchStart={[Function]}
+>
+  <ol
+    className="carousel-indicators"
+  />
+  <div
+    className="carousel-inner"
+  />
+  <a
+    className="carousel-control-prev"
+    href="#"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    role="button"
+  >
+    <svg
+      fill="#FFCB05"
+      height="20"
+      viewBox="0 0 8 8"
+      width="20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z"
+      />
+    </svg>
+    <span
+      className="sr-only"
+    >
+      Previous
+    </span>
+  </a>
+  <a
+    className="carousel-control-next"
+    href="#"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    role="button"
+  >
+    <svg
+      fill="#FFCB05"
+      height="20"
+      viewBox="0 0 8 8"
+      width="20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z"
+      />
+    </svg>
+    <span
+      className="sr-only"
+    >
+      Next
+    </span>
+  </a>
+</div>
+`;

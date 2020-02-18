@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokemonCard should render 1`] = `
+<div
+  className="PokemonCard"
+>
+  <div
+    className="image"
+  >
+    <img
+      alt="Pokemon's image"
+    />
+  </div>
+  <div
+    className="cord-body"
+  >
+    <h5
+      className="title"
+    >
+      Test
+    </h5>
+    <p
+      className="description"
+    >
+      Some quick example text to build on the card title and make up the bulk of the cards content.
+    </p>
+    <div
+      className="button"
+    >
+      <Link
+        to="/pokemons/undefined"
+      >
+        <button
+          className="btn btn-outline-info"
+          disabled={false}
+          type="button"
+        >
+          Open
+        </button>
+      </Link>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,23 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  min-height: calc(100vh - 200px);
+
+  .pagination-btns {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 10px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}

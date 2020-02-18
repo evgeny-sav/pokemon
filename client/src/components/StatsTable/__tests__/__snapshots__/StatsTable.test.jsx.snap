@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatsTable should render 1`] = `
+<table
+  className="table table-striped table-bordered table-hover"
+>
+  <thead>
+    <tr>
+      <th>
+        Name
+      </th>
+      <th>
+        Value
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        Id
+      </td>
+      <td>
+        
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Height
+      </td>
+      <td>
+        
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Weight
+      </td>
+      <td>
+        
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
